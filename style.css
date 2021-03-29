@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="new_task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -141,11 +141,13 @@ ul#incompleted_tasks label {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul 
+li input[type="text"] {
   display: none;
 }
 
-ul li.edit_mode input[type="text"] {
+ul 
+li.edit_mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
